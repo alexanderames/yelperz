@@ -19,7 +19,7 @@
 
 .jumbotron {
 	min-height: 600px;
-	background-image: url('https://cdn.pixabay.com/photo/2015/12/08/00/26/food-1081707_960_720.jpg');
+	background-image: url(<%= asset_path 'foods.jpg' %>);
 	background-repeat: no-repeat;
 	opacity: 0.9;
 	text-shadow: -3px 4px 5px rgb(28, 28, 20);
